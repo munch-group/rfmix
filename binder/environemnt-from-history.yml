@@ -1,0 +1,11 @@
+name: rfmix-workflow
+channels:
+  - defaults
+dependencies:
+  - rfmix
+  - bcftools
+  - gwf
+  - seaborn
+  - git
+  - jupyterlab
+prefix: /home/kmt/miniconda3/envs/rfmix-workflow
