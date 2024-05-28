@@ -1,2 +1,2 @@
-# rfmix-workflow.py
+# rfmix-workflow
 GWF workflow for RFmix
