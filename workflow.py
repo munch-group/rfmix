@@ -5,6 +5,7 @@ from pathlib import Path
 import pandas as pd
 from collections import defaultdict
 
+# conda env create -f binder/environment.yml
 conda_env = 'rfmix-workflow'
 
 def prep_rfmix(analysis, vcf_files, ref_samples, query_samples, out_suffix, output_dir):
@@ -45,7 +46,7 @@ def rfmix(chrom, query, reference, sample_map, genetic_map, output_path, e=3, G=
     outputs = [output + ".msp.tsv"]
     options = {
         "cores": 10,
-        "memory": "128g",
+        "memory": "200g",
         "walltime": "12:00:00",
         "account": "baboondiversity"
     }
